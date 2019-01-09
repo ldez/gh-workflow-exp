@@ -1,6 +1,6 @@
 workflow "New workflow" {
   resolves = ["Hello World"]
-  on = "release"
+  on = "push"
 }
 
 action "Hello World" {
