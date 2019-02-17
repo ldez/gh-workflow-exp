@@ -2,7 +2,7 @@
 
 env
 
-ls
+ls -a
 
 cat $GITHUB_EVENT_PATH
 
